@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/fundo.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+
+img {
+    width: 500%;
+    /* position: relative; */
+    /* height: 200px; */
+}
+
+span { 
+    position: absolute;
+    font-size: 100px;
+    margin-top: 60px;
+    /* top: 30px; */
+}
+.cronometro, .botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+button {
+    cursor: pointer;
+    color: #02AA6D;
+}
+
+i {
+    font-size: 45px;
+}
+
+#btnPause {
+    margin: auto 25px;
+}
+
+@media(max-width: 425px) {
+    span {
+        font-size: 80px;
+        margin-top: 40px;
+    }
+
+    i {
+        font-size: 40px;
+    }
+}
+

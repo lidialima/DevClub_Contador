@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>DevClub Cronometro</title>
+  </head>
+  <body>
+   <main>
+     <div class="cronometro">
+        <img src="./img/cronometro-green.png" alt="cronometro">
+        <span>0.0</span>
+    </div>
+
+    <div class="botoes">
+        <button id="btnStart"><i class='bx bx-play' ></i></button>
+        <button id="btnPause" disabled><i class='bx bx-pause' ></i></button>
+        <button id="btnClean"><i class='bx bx-stop' ></i></button>
+      </div>
+
+   </main>
+
+
+
+    <!-- AULA JavaScript pt.2- Front End Club RODOLFO -->
+    <!-- <h1>0</h1>
+    <button onclick="stop()">Stop</button>
+    <button onclick="start()">Start</button>
+  </body>
+
+  <script>
+    let number = 0
+    let cron
+    let h1 = document.querySelector('h1')
+
+    function start() {
+        
+        cron = setInterval(function(){
+            number++
+            h1.innerHTML = number
+        }, 1000)
+    }
+
+    function stop() {
+        clearInterval(cron)
+    }
+  </script> -->
+  <script src="./index.js"></script>
+</html>
